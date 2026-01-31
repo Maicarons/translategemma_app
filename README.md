@@ -104,4 +104,4 @@ A real-time translation application built with Vue 3, Capacitor, and MediaPipe.
 
 ## License
 
-MIT
+MPL-2.0
