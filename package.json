@@ -9,7 +9,10 @@
     "preview": "vite preview",
     "android": "vite build && npx cap sync && npx cap build android",
     "ios": "vite build && npx cap sync && npx cap build ios",
-    "sync": "vite build && npx cap sync"
+    "sync": "vite build && npx cap sync",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs && node tools/fix-leaf-html.mjs",
+    "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
     "@capacitor-community/text-to-speech": "^6.1.0",
